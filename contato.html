@@ -19,21 +19,22 @@
         </td>
     </tr>
    <tr>
-    <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    <td>Fale comigo. 
         <hr>
     </td>
    </tr>
 
 <tr>
     <td>
-        <form action="formulario">
+        <form action="mailto:debora.goncalves08@gmail.com" method="POST" enctype="text/plain">
             Seu e-mail: <br>
-            <input type="text" name="email"><br>
+            <input type="email" name="email" required/><br>
             Assunto: <br>
-            <input type="text" name="assunto"> <br> <br>
+            <input type="text" name="assunto" required/> <br> <br>
             Descrição: <br>
             <textarea name="observacao" id="" cols="30" rows="3"></textarea> <br>
-            <input type="submit">
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
         </form> 
     </td>
 </tr>
